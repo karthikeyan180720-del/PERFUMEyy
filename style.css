@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 50%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width:70% ;
+    padding: 15px;
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+.products{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:300px;
+    border:1px solid #000;
+    display:flex;
+    flex-direction:column;
+}
+
+.card img{
+    width:100%;
+    height:300px;      /* same height for all images */
+    object-fit:cover;  /* keeps alignment */
+    display:block;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+
+.card p{
+    padding:10px;
+    margin:0;
+}
+
+h1{
+    margin-left:20pxpx;
+    margin-top: 20px;
+    padding: 10px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+/* Attractive Background */
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #1a1a1a,
+        #2c3e50,
+        #8e44ad
+    );
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Navigation Bar */
+nav{
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    color: white;
+}
+
+/* Search Bar */
+.searchbar input{
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Product Cards */
+.card{
+    width:300px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.4s;
+    box-shadow:0 4px 15px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow:0 8px 25px rgba(255,255,255,0.3);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card p{
+    padding:10px;
+}
+
+/* Contact Section */
+.contact{
+    background: rgba(0,0,0,0.7);
+    text-align:center;
+    padding:40px;
+    margin-top:30px;
+}
+
+/* Heading */
+h1{
+    text-align:center;
+    margin:20px;
+    font-size:35px;
+    color:#ffd700;
+}
